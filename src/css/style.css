@@ -1,0 +1,135 @@
+
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background-color: #0d1122;
+   font-family: 'Red Hat Display', sans-serif;
+   color: #fff;
+}
+
+.cont{
+    position: relative;
+    border: 3px solid #fff;
+    box-shadow: 5px 5px 10px 1px #888888;
+    border-radius: 25px;
+    width: 380px;
+    padding: 30px;
+}
+
+.cont::before{
+    content: '';
+    background: url(../image/bg.jpg)center no-repeat;
+    background-size:cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+.cont .header{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+}
+
+.cont .header .search{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    background-color:var(--color-search);
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+
+
+.cont .header  .button{
+    background-color:var(--color-search);
+    border-radius: 6px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.cont .header .button:hover{
+    padding: 13px;
+    background-color: rgb(93, 187, 221);
+}
+
+.cont .header .lupa{
+    width: 25px;
+
+}
+
+
+
+
+.cont .main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  
+}
+
+.cont .main h2{
+    margin-top: 30px;
+}
+
+.cont .main h1{
+ text-align: center;
+}
+
+
+
+.cont .header  .erro{
+    color: crimson;
+    font-weight: 700;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 280px;
+    display: none;
+    
+}
+
+.cont .main .temperature{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.cont .info-secondary{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   font-size: 17px;
+   font-weight: 500;
+   color: #fff;
+}
+
+.cont .info-secondary .humidade,
+.cont .info-secondary .speed{
+  display: flex;
+  justify-content: space-between;
+}
+
+.api{
+    color: crimson;
+    font-size: 56px;
+}
