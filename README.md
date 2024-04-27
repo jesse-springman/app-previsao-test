@@ -3,7 +3,7 @@
 Basta digitar qual cidade vc se interessa em saber a temperatura, humidade até mesmo a velocidade do vento.<BR>
 Isso é possível através de recursos de uma API que retem esses dados em seu banco.
 
-<img src="./image/tempo.gif">
+<img src=".src/image/tempo.gif">
 
 ## Tecnológias utilizadas 
 
