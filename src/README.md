@@ -3,7 +3,7 @@
 Basta digitar qual cidade vc se interessa em saber o clima, humidade até mesmo a velocidade do vento que será exibido em tela os detalhes.<BR>
 Isso é possível através de recursos de uma API que retem esses dados em seu banco.
 
-<img src="./image/tempo.gif">
+<img src= "../src/image/gifgit-app-prefisao.gif">
 
 ## Tecnológias utilizadas 
 
